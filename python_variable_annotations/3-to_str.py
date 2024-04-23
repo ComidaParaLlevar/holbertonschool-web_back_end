@@ -4,6 +4,6 @@ as argument and returns the string representation of the float
 """
 
 
-def to_str(n:float) -> str:
+def to_str(n: float) -> str:
     """returns string representation of float"""
     return str(n)
