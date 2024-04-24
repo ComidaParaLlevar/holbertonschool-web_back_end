@@ -3,6 +3,6 @@
 from typing import List, Tuple
 
 
-def element_length(lst: List[str]) -> List[tuple[str, int]]:
+def element_length(lst: List[str]) -> List[Tuple[str, int]]:
     """returns list of tuples with string and int"""
     return [(i, len(i)) for i in lst]
