@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-"""List all databases in MongoDB using Python."""
+// List all databases in MongoDB using Python.
 from pymongo import MongoClient
 
 # Connect to MongoDB
